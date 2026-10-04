@@ -2397,8 +2397,8 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Lenna",spr_KSW_Fish_Lenna,spr_KSW_Fish_Lenna_Pal,series_LennasInception,mint,3,androidPort,KSW_Phases.none,90000,0,0,-1,snd_KSW_Fish_Lenna,0);
 	scr_KSW_AddFish("Elefee",spr_KSW_Fish_Elefee,spr_KSW_Fish_Elefee_Pal,series_UnderNightInBirth,legion,3,creamCrevasse,KSW_Phases.night,143000,-25,0);
 	scr_KSW_AddFish("Undyin",spr_KSW_Fish_Undyin,spr_KSW_Fish_Undyin_Pal,series_CassetteBeasts,flux,2,hallowReen,KSW_Phases.day,27500,1,15);
-	scr_KSW_AddFish("Kuneko",spr_KSW_Fish_Kuneko,spr_KSW_Fish_Kuneko_Pal,series_CassetteBeasts,flux,2,grassBeach,KSW_Phases.day,69000);
-	scr_KSW_AddFish("Shining Kuneko",spr_KSW_Fish_ShiningKuneko,spr_KSW_Fish_ShiningKuneko_Pal,series_CassetteBeasts,flux,3,grassBeach,KSW_Phases.day,84000);
+	scr_KSW_AddFish("Kuneko",spr_KSW_Fish_Kuneko,spr_KSW_Fish_Kuneko_Pal,series_CassetteBeasts,flux,2,grassBeach,KSW_Phases.day,69000,4,6);
+	scr_KSW_AddFish("Shining Kuneko",spr_KSW_Fish_ShiningKuneko,spr_KSW_Fish_ShiningKuneko_Pal,series_CassetteBeasts,flux,3,grassBeach,KSW_Phases.day,84000,0,14);
 	
 	#region November Rain
 	//scr_KSW_AddFish("Ghostbell",spr_KSW_Fish_Ghostbell,spr_KSW_Fish_Ghostbell_Pal,series_TerrariaCalamity,mage,0,grassBeach,KSW_Phases.none,800);
