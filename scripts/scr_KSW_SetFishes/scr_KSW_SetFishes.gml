@@ -142,10 +142,12 @@ function scr_KSW_SetFishes()
 	var series_IB = global.KSW_SeriesIDs[? "iB"];
 	var series_aHatInTime = global.KSW_SeriesIDs[? "aHatInTime"];
 	var series_omori = global.KSW_SeriesIDs[? "omori"];
-	var series_CassetteBeasts = global.KSW_SeriesIDs[? "CassetteBeasts"]
+	var series_LennasInception = global.KSW_SeriesIDs[? "lennasInception"];
+	var series_CassetteBeasts = global.KSW_SeriesIDs[? "cassetteBeasts"];
 	var series_LookOutside = global.KSW_SeriesIDs[? "LookOutside"];
 	var series_RiskRain = global.KSW_SeriesIDs[? "riskRain"];
 	var series_FISH = global.KSW_SeriesIDs[? "fish"];
+	var series_UnderNightInBirth = global.KSW_SeriesIDs[? "underNightInBirth"];
 	#endregion
 	
 	#region Stages
@@ -2392,8 +2394,11 @@ function scr_KSW_SetFishes()
 	scr_KSW_AddFish("Priest Puffball",spr_KSW_Fish_PriestPuffball,spr_KSW_Fish_PriestPuffball_Pal,series_Deltarot,mint,3,hallowReen,KSW_Phases.night,66700);
 	scr_KSW_AddFish("Killer Fish",spr_KSW_Fish_KillerFish,spr_KSW_Fish_KillerFish_Pal,series_FISH,borange,3,grassBeach,KSW_Phases.day,120000,,,,snd_KSW_Fish_KillerFish);
 	scr_KSW_AddFish("Killer Tuna",spr_KSW_Fish_KillerTuna,spr_KSW_Fish_KillerTuna_Pal,series_FISH,legion,2,hallowReen,KSW_Phases.night,72413);
-	
-	
+	scr_KSW_AddFish("Lenna",spr_KSW_Fish_Lenna,spr_KSW_Fish_Lenna_Pal,series_LennasInception,mint,3,androidPort,KSW_Phases.none,90000,0,0,-1,snd_KSW_Fish_Lenna,0);
+	scr_KSW_AddFish("Elefee",spr_KSW_Fish_Elefee,spr_KSW_Fish_Elefee_Pal,series_UnderNightInBirth,legion,3,creamCrevasse,KSW_Phases.night,143000,-25,0);
+	scr_KSW_AddFish("Undyin",spr_KSW_Fish_Undyin,spr_KSW_Fish_Undyin_Pal,series_CassetteBeasts,flux,2,hallowReen,KSW_Phases.day,27500,1,15);
+	scr_KSW_AddFish("Kuneko",spr_KSW_Fish_Kuneko,spr_KSW_Fish_Kuneko_Pal,series_CassetteBeasts,flux,2,grassBeach,KSW_Phases.day,69000);
+	scr_KSW_AddFish("Shining Kuneko",spr_KSW_Fish_ShiningKuneko,spr_KSW_Fish_ShiningKuneko_Pal,series_CassetteBeasts,flux,3,grassBeach,KSW_Phases.day,84000);
 	
 	#region November Rain
 	//scr_KSW_AddFish("Ghostbell",spr_KSW_Fish_Ghostbell,spr_KSW_Fish_Ghostbell_Pal,series_TerrariaCalamity,mage,0,grassBeach,KSW_Phases.none,800);
